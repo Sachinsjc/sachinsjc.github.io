@@ -26,12 +26,12 @@
     width: 100%;
 }
 
-/* services section css */
-.servicesText.card {
+/* skillsets section css */
+.skillsetsText.card {
     height: 280px;
     cursor: pointer;
   }
-.servicesIcon {
+.skillsetsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
@@ -42,7 +42,7 @@
 .card:hover .servicesIcon {
     color: #008000;
 }
-.servicesText:hover {
+.skillsetsText:hover {
     border: 1px solid #008000;
 }
 
