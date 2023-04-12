@@ -76,3 +76,42 @@
 #contact {
     padding-bottom: 4rem;
 }
+
+/* about me section */
+
+.skills, .instagram, .contact {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.skills p, .instagram p, .contact p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+a {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+	color: #fff;
+	background-color: hsla(0, 8%, 85%, 0.123);
+	padding: 10px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+@media (max-width: 768px) {
+	.skills, .instagram, .contact {
+		width: 100%;
+	}
+}
